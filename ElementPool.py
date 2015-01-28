@@ -8,14 +8,13 @@
 import re
 
 class Question:
-   number = ""
-   correct = ""
-   choices = {}
-   figure = ""
-   prompt = ""
 
    def __init__(self, number):
       self.number = number
+      self.correct = ""
+      self.choices = {}
+      self.figure = ""
+      self.prompt = ""
 
    def addChoice(self, choice, text):
       self.choices[choice] = text

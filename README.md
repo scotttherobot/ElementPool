@@ -33,10 +33,10 @@ tuple some for readability.
 [
 ('T1A01', {
    'choices': [
-      ('A', 'Variable capacitor'), 
-      ('B', 'Variable inductor'), 
-      ('C', 'Variable resistor'), 
-      ('D', 'Variable transformer')
+      ('A', 'Providing personal radio communications for as many citizens as possible'), 
+      ('B', 'Providing communications for international non-profit organizations'), 
+      ('C', 'Advancing skills in the technical and communication phases of the radio art'), 
+      ('D', 'All of these choices are correct ')
    ], 
    'prompt': 'Which of the following is a purpose of the Amateur Radio Service as stated in the FCC rules and regulations?', 
    'id': 'T1A01', 
