@@ -32,25 +32,27 @@ tuple some for readability.
 ```python
 [
 ('T1A01', {
-   'choices': [('A', 'Variable capacitor'), ('B', 'Variable inductor'), ('C', 'Variable resistor'), ('D', 'Variable transformer')], 
+   'choices': [
+      ('A', 'Variable capacitor'), 
+      ('B', 'Variable inductor'), 
+      ('C', 'Variable resistor'), 
+      ('D', 'Variable transformer')
+   ], 
    'prompt': 'Which of the following is a purpose of the Amateur Radio Service as stated in the FCC rules and regulations?', 
    'id': 'T1A01', 
    'figure': '', 
    'correct': 'C'
 }), 
-('T1A02', {
-   'choices': [('A', 'Variable capacitor'), ('B', 'Variable inductor'), ('C', 'Variable resistor'), ('D', 'Variable transformer')], 
-   'prompt': 'Which agency regulates and enforces the rules for the Amateur Radio Service in the United States?', 
-   'id': 'T1A02', 
-   'figure': '', 
-   'correct': 'C'
-}), 
 ('T6C08', {
-   'choices': [('A', 'Variable capacitor'), ('B', 'Variable inductor'), ('C', 'Variable resistor'), ('D', 'Variable transformer')], 
+   'choices': [
+      ('A', 'Variable capacitor'), 
+      ('B', 'Variable inductor'), 
+      ('C', 'Variable resistor'), 
+      ('D', 'Variable transformer')], 
    'prompt': 'What is component 9 in figure T2?', 
    'id': 'T6C08', 
    'figure': 'T2', 
    'correct': 'C'
 })
 ]
-111
+```
