@@ -14,7 +14,7 @@ import ElementPool
 pool = ElementPool.ElementPool('pools/2014-2018 Tech Pool.txt')
 
 # To get at the raw data structures, you can call sortedQuestions()
-sorted = pool.sortedQuestions()
+sortedQs = pool.sortedQuestions()
 
 # If you don't care if they're sorted
 unsorted = pool.questions
