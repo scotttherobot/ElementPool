@@ -25,7 +25,7 @@ print pool
 
 ### Data structure
 
-Why does the question data structure look like, might you ask? Here's a sample
+What does the question data structure look like? Here's a short sample
 of what is returned from `pool.sortedQuestions()`. I've broken up each question
 tuple some for readability.
 
@@ -48,7 +48,8 @@ tuple some for readability.
       ('A', 'Variable capacitor'), 
       ('B', 'Variable inductor'), 
       ('C', 'Variable resistor'), 
-      ('D', 'Variable transformer')], 
+      ('D', 'Variable transformer')
+   ],
    'prompt': 'What is component 9 in figure T2?', 
    'id': 'T6C08', 
    'figure': 'T2', 
