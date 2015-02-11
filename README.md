@@ -1,7 +1,7 @@
 ### ElementPool
 
 This is a Python parser for Amateur Radio Exam element question pools. This was
-tested and built against the 2014 Element 1 (Technician Class) question pool.
+tested and built against the 2014 Element 2 (Technician Class) question pool.
 
 #### Usage
 
